@@ -34,7 +34,7 @@ This course is about web-based systems which includes the following programming 
 
 <br>
 <div>
-This course was divided into the following components with respective deadlines.<br>
+This course is divided into the following components with respective deadlines.<br>
 <table style="width: 686.812px; height: 235px; float: center;" border="0" cellpadding="2">
 <tbody>
 <tr style="height: 15px;">
@@ -53,24 +53,24 @@ This course was divided into the following components with respective deadlines.
 <td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 13, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group project - proposal (milestone 1)</td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - Proposal (milestone 1)</td>
 <td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;5%</td>
 <td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;Mar 13, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group project - UI mockups (milestone 2)</td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - UI Mockups (milestone 2)</td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T.B.A.</td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 20, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 33px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group project - technical topic presentation(milestone 3)</td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)</td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T.B.A.</td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based On Group Booking</td>
 </tr>
 <tr style="height: 29px;">
-<td style="width: 366px; height: 29px;">&nbsp;Group project - final report and live demo(milestone 4)</td>
+<td style="width: 366px; height: 29px;">&nbsp;Group Project - Final Report & Live Demo(milestone 4)</td>
 <td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;35%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T.B.A.</td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Apr 12, 2022 - 11:59 PM (MT)</td>
 </tr>
 </tbody>
 </table>
