@@ -12,30 +12,35 @@ Term       : Winter 2022<br>
 <body>
 <br>
 <div>
-<p>This repository consists of development files and data for the proposed group project for the group project component section of the course. </p>
+<p>This repository consists of development files and data of the proposed group project for the respective component section of the course. </p>
 </div>
 <div>
 This course is about web-based systems which includes the following programming languagees:  
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>JavaScript</li>
+<li>JavaScript
+  <ul>
+    <li>Node JavaScript</li>
+    <li>Angular JavaScript</li>
+    <li>React JavaScript</li>
+  </ul>
+  </li>
 <li>JQuery</li>
-<li>NodeJS</li>
 <li>PHP</li>
-<li>RubyonRails</li>
+<li>Ruby on Rails</li>
 </ul>
 </div>
 
 <br>
 <div>
-This course was divided into the followed components with respective deadlines.<br>
+This course was divided into the following components with respective deadlines.<br>
 <table style="width: 686.812px; height: 235px; float: center;" border="0" cellpadding="2">
 <tbody>
 <tr style="height: 15px;">
 <td style="width: 366px; height: 41px;">&nbsp;<strong>Course Component</strong></td>
 <td style="width: 78px; height: 41px; ">&nbsp;<strong>Weight</strong></td>
-<td style="width: 239.812px; height: 41px;">&nbsp;<strong>Due Date (duration for exams)</strong></td>
+<td style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Due Date</strong></td>
 </tr>
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;Individual assignment 1</td>
@@ -45,7 +50,7 @@ This course was divided into the followed components with respective deadlines.<
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;Individual assignment 2</td>
 <td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;20%</td>
-<td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mar 11, 2022</td>
+<td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 13, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;Group project - proposal (milestone 1)</td>
