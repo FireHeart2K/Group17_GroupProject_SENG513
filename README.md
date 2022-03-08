@@ -12,18 +12,23 @@ Term       : Winter 2022<br>
 <body>
 <br>
 <div>
-<p>This repository consists of development files and data for the proposed group project for the group project component section of the course. </p>
+<p>This repository consists of development files and data of the proposed group project for the respective component section of the course. </p>
 </div>
 <div>
 This course is about web-based systems which includes the following programming languagees:  
 <ul>
 <li>HTML</li>
 <li>CSS</li>
-<li>JavaScript</li>
+<li>JavaScript
+  <ul>
+    <li>Node JavaScript</li>
+    <li>Angular JavaScript</li>
+    <li>React JavaScript&nbsp&nbsp<img src="Group17_GroupProject_SENG513/tree/FireHeart2K-patch-1/ReactJS.png"; style="width: 20px; height: 20px; vertical-align: top;"></li>
+  </ul>
+  </li>
 <li>JQuery</li>
-<li>NodeJS</li>
 <li>PHP</li>
-<li>RubyonRails</li>
+<li>Ruby on Rails</li>
 </ul>
 </div>
 
