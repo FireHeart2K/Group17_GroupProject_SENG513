@@ -23,9 +23,7 @@ This course is about web-based systems which includes the following programming 
   <ul>
     <li>Node JavaScript</li>
     <li>Angular JavaScript</li>
-    <div>
-    <li>React JavaScript&nbsp&nbsp</li><img src="/icons/ReactJS.png"; style="width: 20px; height: 20px; vertical-align: center;">
-    </div>
+    <li>React JavaScript&nbsp&nbsp<div><img src="/icons/ReactJS.png"; style="width: 20px; height: 20px; vertical-align: center;"></div></li>
   </ul>
   </li>
 <li>JQuery</li>
