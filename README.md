@@ -8,8 +8,8 @@ Lab        : B03<br>
 Term       : Winter 2022<br>
 <b>GROUP   : 17</B>
 
-
 <body>
+
 <br>
 <div>
 <p>This repository consists of development files and data of the proposed group project for the respective component section of the course. </p>
@@ -23,8 +23,7 @@ This course is about web-based systems which includes the following programming 
   <ul>
     <li>Node JavaScript</li>
     <li>Angular JavaScript</li>
-    <li style="width: 20px; height: 20px; font-size: 14px;">React JavaScript&nbsp&nbsp<img src="/icons/ReactJS.png" style="width: 20px; height: 20px;  margin-top: 30%;">
-    </li>
+    <li>React JavaScript</li>
   </ul>
   </li>
 <li>JQuery</li>
@@ -33,6 +32,9 @@ This course is about web-based systems which includes the following programming 
 </ul>
 </div>
 
+
+  
+  
 <br>
 <div>
 This course was divided into the followed components with respective deadlines.<br>
