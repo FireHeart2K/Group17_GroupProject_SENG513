@@ -55,7 +55,7 @@ This course was divided into the following components with respective deadlines.
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;Group project - proposal (milestone 1)</td>
 <td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;5%</td>
-<td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mar 11, 2022</td>
+<td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;Mar 13, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;Group project - UI mockups (milestone 2)</td>
