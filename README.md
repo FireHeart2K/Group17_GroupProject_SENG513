@@ -23,7 +23,7 @@ This course is about web-based systems which includes the following programming 
   <ul>
     <li>Node JavaScript</li>
     <li>Angular JavaScript</li>
-    <li>React JavaScript&nbsp&nbsp<img src="Group17_GroupProject_SENG513/tree/FireHeart2K-patch-1/ReactJS.png"; style="width: 20px; height: 20px; vertical-align: top;"></li>
+    <li>React JavaScript&nbsp&nbsp<img src="/icons/ReactJS.png"; style="width: 20px; height: 20px; vertical-align: top;"></li>
   </ul>
   </li>
 <li>JQuery</li>
