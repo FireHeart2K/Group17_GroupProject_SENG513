@@ -15,21 +15,44 @@ Term       : Winter 2022<br>
 <p>This repository consists of development files and data of the proposed group project for the respective component section of the course. </p>
 </div>
 <div>
-This course is about web-based systems which includes the following programming languagees:  
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript
+<p>This course is about web-based systems which includes the following programming languages, runtime environment and frameworks:<p>
+<ol>
+  <b><li>Frontend scripting languages:</b>
   <ul>
-    <li>Node JavaScript</li>
-    <li>Angular JavaScript</li>
-    <li>React JavaScript</li>
-  </ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JavaScript:
+		<ul>
+		<li>Runtime Environment:
+			<ul>
+				<li>Node JS</li>
+			</ul>
+		</li>
+		<li>Frameworks
+			<ul>
+				<li>Angular JS</li>
+				<li>React JS</li>
+				<li>Vue JS</li>
+				<li>JQuery</li>
+			</ul>
+		</li>
+		</ul>
+	</li>
   </li>
-<li>JQuery</li>
-<li>PHP</li>
-<li>Ruby on Rails</li>
 </ul>
+<br>
+  <b><li>Backend scripting language:</b>
+  <ul>
+  <li>PHP</li>
+  </ul>
+ </li>
+<br>
+  <b><li>Full-stack framework:</b>
+	<ul>
+	<li>Ruby on Rails</li>
+	</ul>
+</li>
+</ol>
 </div>
 
 <br>
