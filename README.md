@@ -1,4 +1,4 @@
-# SENG513 - Web-Based Systems
+# Group 17 | Septendecas | Group Project
 Course Code: SENG 513<br>
 Course Name: Web-Based Systems<br>
 Professor  : Lorans Alabood<br>
@@ -12,10 +12,7 @@ Term       : Winter 2022<br>
 <body>
 <br>
 <div>
-<p>This repository consists of development files and data of the proposed group project for the respective component section of the course. </p>
-</div>
-<div>
-<p>This course is about web-based systems which includes the following programming languages, runtime environment and frameworks:<p>
+<p>This repository consists of development files and data of the proposed group project for the respective component section of the web-based systems course which includes the following programming languages, runtime environment and frameworks:</p>
 <ol>
   <b><li>Frontend scripting languages:</b>
   <ul>
