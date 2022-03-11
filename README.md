@@ -52,6 +52,8 @@ Term       : Winter 2022<br>
 </ol>
 </div>
 </div>
+<div>
+<h2>Group Project</h2>
 
 | No. | Topics For Research                                                               |     Member         | Status                                    |
 | :-: | --------------------------------------------------------------------------------- | :----------------: | :---------------------------------------: |
@@ -66,10 +68,11 @@ Term       : Winter 2022<br>
 |  9  | Image Editing System                                                              |     Irtaza         | Research In Progress                      | 
 | 10  | Local Price Checker                                                               |     Irtaza         | Research In Progress                      |
 
+</div>
 
 <br>
 <div>
-This course is divided into the following components with respective deadlines.<br>
+<h2>Components & Deadlines.</h2><br>
 <table style="width: 686.812px; height: 235px; float: center;" border="0" cellpadding="2">
 <tbody>
 <tr style="height: 15px;">
