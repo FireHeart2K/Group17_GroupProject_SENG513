@@ -55,18 +55,18 @@ Term       : Winter 2022<br>
 <div>
 <h2>Group Project</h2>
 
-| No. | Topics For Research                                                               |     Member         | Status                                    |
-| :-: | --------------------------------------------------------------------------------- | :----------------: | :---------------------------------------: |
-|  1  | <b>Tinder Replica<b>                                                              |     Ezra           | Research In Progress                      |
-|  <strike>2</strike>  | <strike>Audio Video Chat App<strike>                             |<strike>Ezra<strike>| Canceled due to hardware dependencies     | 
-|  3  | Automated Crypto Trading Bot                                                      |     Ezra           | Research In Progress                      | 
-|  4  | Converter<br>*(Incl. Currency, units, language <br>and whatsoever is applicable)* |     Ezra           | Research In Progress                      |
-|  5  | Web-based 2D game                                                                 |     Nathan         | Research In Progress                      |
-|  6  | File sharing platform                                                             | Nathan-Irtaza      | Research In Progress                      | 
-|  7  | Social Media App<br>*(A small one)*                                               |     Nathan         | Research In Progress                      | 
-|  8  | Scheduling System                                                                 |     Irtaza         | Research In Progress                      |
-|  9  | Image Editing System                                                              |     Irtaza         | Research In Progress                      | 
-| 10  | Local Price Checker                                                               |     Irtaza         | Research In Progress                      |
+| No. | Topics For Research                                                               |     Member            | Status                                    |
+| :-: | --------------------------------------------------------------------------------- | :-------------------: | :---------------------------------------: |
+|  1  | <b>Tinder Replica<b>                                                              |     Ezra              | Research Complete                         |
+|  <strike>2</strike>  | <strike>Audio Video Chat App<strike>                             |<strike>Ezra<strike>   | Canceled due to hardware dependencies     | 
+|  3  | Automated Crypto Trading Bot                                                      |     Ezra              | Research Complete                         | 
+|  4  | Converter<br>*(Incl. Currency, units, language <br>and whatsoever is applicable)* |     Ezra              | Research Complete                         |
+|  5  | Web-based 2D game                                                                 |     Nathan            | Research Complete                         |
+|  6  | File sharing platform                                                             | Nathan-Irtaza         | Research Complete                         | 
+|  7  | Social Media App<br>*(A small one)*                                               |     Nathan            | Research Complete                         | 
+|  8  | Scheduling System                                                                 |     Irtaza            | Research Complete                         |
+|  9  | Image Editing System                                                              |     Irtaza            | Research Complete                         | 
+| 10  | <strike>Local Price Checker</strike>                                              |<strike>Irtaza</strike>| Canceled due to time constrain            |
 
 </div>
 
