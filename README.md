@@ -83,14 +83,14 @@ Term       : Winter 2022<br>
 <td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;<strike>Mar 13, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group Project - UI Mockups (milestone 2)</td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - UI Mockups (milestone 2)&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 20, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 33px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)&nbsp;&nbsp;<img src="Green-Blinking-Circle.gif"; style="width: 15px; height: 15px;">&nbsp</td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 15, 2022 (MT)&nbsp&nbsp|&nbsp😑</td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 15, 2022 (MT)&nbsp&nbsp</td>
 </tr>
 <tr style="height: 29px;">
 <td style="width: 366px; height: 29px;">&nbsp;Group Project - Final Report & Live Demo(milestone 4)</td>
