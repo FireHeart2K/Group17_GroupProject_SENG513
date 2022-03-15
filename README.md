@@ -53,21 +53,8 @@ Term       : Winter 2022<br>
 </div>
 </div>
 <div>
-<h2>Group Project</h2>
-
-| No. | Topics For Research                                                               |     Member            | Status                                    |
-| :-: | --------------------------------------------------------------------------------- | :-------------------: | :---------------------------------------: |
-|  1  | <b>Tinder Replica<b>                                                              |     Ezra              | Research Complete                         |
-|  <strike>2</strike>  | <strike>Audio Video Chat App<strike>                             |<strike>Ezra<strike>   | Canceled due to hardware dependencies     | 
-|  3  | Automated Crypto Trading Bot                                                      |     Ezra              | Research Complete                         | 
-|  4  | Converter<br>*(Incl. Currency, units, language <br>and whatsoever is applicable)* |     Ezra              | Research Complete                         |
-|  5  | Web-based 2D game                                                                 |     Nathan            | Research Complete                         |
-|  6  | File sharing platform                                                             | Nathan-Irtaza         | Research Complete                         | 
-|  7  | Social Media App<br>*(A small one)*                                               |     Nathan            | Research Complete                         | 
-|  8  | Scheduling System                                                                 |     Irtaza            | Research Complete                         |
-|  9  | Image Editing System                                                              |     Irtaza            | Research Complete                         | 
-| 10  | <strike>Local Price Checker</strike>                                              |<strike>Irtaza</strike>| Canceled due to time constrain            |
-
+<h2>Group Project:&nbsp&nbsp&nbspexVault File Browser&nbsp&nbsp📁&nbsp➕&nbsp🔒</h2>
+<p style="italic">Details will follow shortly.</p>
 </div>
 
 <br>
@@ -81,19 +68,19 @@ Term       : Winter 2022<br>
 <td style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Due Date</strong></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;Individual assignment 1</td>
-<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;20%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb 10, 2022</td>
+<td style="width: 366px; height: 41px;">&nbsp;<strike>Individual assignment 1</strike></td>
+<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;<strike>20%</strike></td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strike>Feb 10, 2022</strike></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;Individual assignment 2</td>
-<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;20%</td>
-<td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 13, 2022 - 11:59 PM (MT)</td>
+<td style="width: 366px; height: 41px;">&nbsp;<strike>Individual assignment 2</strike></td>
+<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;<strike>20%</strike></td>
+<td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Mar 13, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group Project - Proposal (milestone 1)</td>
-<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;5%</td>
-<td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;Mar 13, 2022 - 11:59 PM (MT)</td>
+<td style="width: 366px; height: 41px;">&nbsp;<strike>Group Project - Proposal (milestone 1)</strike></td>
+<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;<strike>5%</strike></td>
+<td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;<strike>Mar 13, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;Group Project - UI Mockups (milestone 2)</td>
@@ -101,9 +88,9 @@ Term       : Winter 2022<br>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 20, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 33px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)</td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)&nbsp🟢&nbsp</td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Based On Group Booking</td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 15, 2022 (MT)&nbsp&nbsp|&nbsp😑</td>
 </tr>
 <tr style="height: 29px;">
 <td style="width: 366px; height: 29px;">&nbsp;Group Project - Final Report & Live Demo(milestone 4)</td>
