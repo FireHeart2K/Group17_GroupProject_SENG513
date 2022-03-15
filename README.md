@@ -53,7 +53,7 @@ Term       : Winter 2022<br>
 </div>
 </div>
 <div>
-<h2>Group Project:&nbsp&nbsp&nbspexVault File Browser&nbsp&nbsp📁&nbsp➕&nbsp🔒</h2>
+<h2>Group Project:&nbsp&nbsp&nbspexVault File Browser&nbsp&nbsp📁&nbsp<strong>+</strong>&nbsp💬&nbsp<strong>=</strong>&nbsp🔒</h2>
 <p style="italic">Details will follow shortly.</p>
 </div>
 
@@ -70,7 +70,7 @@ Term       : Winter 2022<br>
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;<strike>Individual assignment 1</strike></td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;<strike>20%</strike></td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strike>Feb 10, 2022</strike></td>
+<td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Feb 10, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
 <td style="width: 366px; height: 41px;">&nbsp;<strike>Individual assignment 2</strike></td>
@@ -88,7 +88,7 @@ Term       : Winter 2022<br>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 20, 2022 - 11:59 PM (MT)</td>
 </tr>
 <tr style="height: 33px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)&nbsp🟢&nbsp</td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)&nbsp;&nbsp;<img src="Green-Blinking-Circle.gif"; style="width: 15px; height: 15px;">&nbsp</td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 15, 2022 (MT)&nbsp&nbsp|&nbsp😑</td>
 </tr>
