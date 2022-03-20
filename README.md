@@ -53,8 +53,8 @@ Term       : Winter 2022<br>
 </div>
 </div>
 <div>
-<h2>Group Project:&nbsp&nbsp&nbspexVault File Browser&nbsp&nbsp📁&nbsp<strong>+</strong>&nbsp💬&nbsp<strong>=</strong>&nbsp🔒</h2>
-<p style="italic">Details will follow shortly.</p>
+<h2>Group Project:&nbsp&nbsp&nbspExVault File Share&nbsp&nbsp📁&nbsp<strong>+</strong>&nbsp💬&nbsp<strong>=</strong>&nbsp🔒</h2>
+<p>ExVault, is a file sharing web application. The file(s) can be stored online to be accessed by another intended user. There have been issues in the past with coming up with a system-agnostic way of transferring files quickly to other users. For example, transferring a file from an Android phone to a linux computer is difficult without the use of something like Google Drive. However, for small files it can be a little excessive to set up a folder, upload the file, and then share a link. ExVault would allow this kind of transaction to be completed quickly by having users invite each other to public or private “chat rooms”. Once in the room users will be represented by an avatar. By dragging and dropping files over each user one can share with a specific person or the whole room. Rooms are not remembered but under their account each user can see files they have uploaded and received. The file will be stored online on MongoDB for a certain period of time due to pricing constraints and will have a limitation as to how large the file is. The files will then be downloaded when clicked for the user to view on their personal computer.</p>
 </div>
 
 <br>
@@ -68,33 +68,33 @@ Term       : Winter 2022<br>
 <td style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Due Date</strong></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;<strike>Individual assignment 1</strike></td>
-<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;<strike>20%</strike></td>
+<td style="width: 366px; height: 41px;">&nbsp;Individual Assignment 1</td>
+<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;20&nbsp;%</td>
 <td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Feb 10, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;<strike>Individual assignment 2</strike></td>
-<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;<strike>20%</strike></td>
+<td style="width: 366px; height: 41px;">&nbsp;Individual Assignment 2</td>
+<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;20&nbsp;%</td>
 <td id="dateColum" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Mar 13, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;<strike>Group Project - Proposal (milestone 1)</strike></td>
-<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;<strike>5%</strike></td>
+<td style="width: 366px; height: 41px;">&nbsp;<a href="https://drive.google.com/drive/folders/1ynrTJJwakhet_teFYJN7wTcA9iZIkbLc">Group Project - Proposal (Milestone 1)</a></td>
+<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;4.8&nbsp;%</td>
 <td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;<strike>Mar 13, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group Project - UI Mockups (milestone 2)&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
-<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Mar 20, 2022 - 11:59 PM (MT)</td>
+<td style="width: 366px; height: 41px;">&nbsp;<a href="https://drive.google.com/drive/folders/1ENLRHc7mA_ffE2DADWEix7VwQ7543nWO">Group Project - UI Mockups (Milestone 2)&nbsp;&nbsp;</a></td>
+<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;9.6&nbsp;%</td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Mar 20, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 33px;">
-<td style="width: 366px; height: 41px;">&nbsp;Group Project - Technical Topic Presentation(milestone 3)&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
-<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;&nbsp;10%</td>
-<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 15, 2022 (MT)&nbsp&nbsp</td>
+<td style="width: 366px; height: 41px;">&nbsp;<a href="https://drive.google.com/drive/folders/1CLVgGAMVrSwWsddPPYNeNypMQ2YDRxJs">Group Project - Technical Topic Presentation (Milestone 3)&nbsp;&nbsp;</a></td>
+<td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;9.6&nbsp;%</td>
+<td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Mar 15, 2022 - 11:59 PM (MT)</strike>&nbsp&nbsp</td>
 </tr>
 <tr style="height: 29px;">
-<td style="width: 366px; height: 29px;">&nbsp;Group Project - Final Report & Live Demo(milestone 4)</td>
-<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;&nbsp;35%</td>
+<td style="width: 366px; height: 29px;">&nbsp;<a href="https://drive.google.com/drive/folders/19QvOVB-bT3cTrCoxZXWFL-VI8hDhbbhF">>Group Project - Final Report & Live Demo (Milestone 4)</a>&nbsp;&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
+<td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;36&nbsp;%</td>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Apr 12, 2022 - 11:59 PM (MT)</td>
 </tr>
 </tbody>
