@@ -93,7 +93,7 @@ Term       : Winter 2022<br>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Mar 15, 2022 - 11:59 PM (MT)</strike>&nbsp&nbsp</td>
 </tr>
 <tr style="height: 29px;">
-<td style="width: 366px; height: 29px;">&nbsp;<a href="https://drive.google.com/drive/folders/19QvOVB-bT3cTrCoxZXWFL-VI8hDhbbhF">>Group Project - Final Report & Live Demo (Milestone 4)</a>&nbsp;&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
+<td style="width: 366px; height: 29px;">&nbsp;<a href="https://drive.google.com/drive/folders/19QvOVB-bT3cTrCoxZXWFL-VI8hDhbbhF">Group Project - Final Report & Live Demo (Milestone 4)</a>&nbsp;&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
 <td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;36&nbsp;%</td>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Apr 12, 2022 - 11:59 PM (MT)</td>
 </tr>
