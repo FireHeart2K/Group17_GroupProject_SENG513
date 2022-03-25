@@ -28,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/FireHeart2K/Group17_GroupProject_SENG513/issues"
   },
-  "homepage": "https://github.com/FireHeart2K/Group17_GroupProject_SENG513#readme"
+  "homepage": "https://github.com/FireHeart2K/Group17_GroupProject_SENG513#readme",
+  "dependencies": {
+    "bson": "^4.6.2",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1"
+  }
 }
