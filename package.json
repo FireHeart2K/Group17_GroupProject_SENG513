@@ -10,7 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/FireHeart2K/Group17_GroupProject_SENG513.git"
   },
-  "author": "",
+  "author": [
+    {
+      "name": "Ezra John Guia"
+    },
+    {
+      "name": "Nathan Bhandari"
+    },
+    {
+      "name": "Irtaza Ansari"
+    },
+    {
+      "name": "Youssef Maksoud"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FireHeart2K/Group17_GroupProject_SENG513/issues"
