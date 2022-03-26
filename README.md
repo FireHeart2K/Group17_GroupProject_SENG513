@@ -1,4 +1,5 @@
-# Group 17 | Septendecas | Group Project
+# Group 17 SENG-513 Project | *ExVault*
+<img align="right" width="175" height="206" src="ExVault_logo.png">
 Course Code: SENG 513<br>
 Course Name: Web-Based Systems<br>
 Professor  : Lorans Alabood<br>
@@ -6,8 +7,7 @@ Lecture    : 01<br>
 T. A.      : Asif Ali Mehmuda<br>
 Lab        : B03<br>
 Term       : Winter 2022<br>
-<b>GROUP   : 17</B>
-
+<b>GROUP   : 17</b><br><br>
 
 <body>
 <br>
@@ -57,9 +57,15 @@ Term       : Winter 2022<br>
 <p>ExVault, is a file sharing web application. The file(s) can be stored online to be accessed by another intended user. There have been issues in the past with coming up with a system-agnostic way of transferring files quickly to other users. For example, transferring a file from an Android phone to a linux computer is difficult without the use of something like Google Drive. However, for small files it can be a little excessive to set up a folder, upload the file, and then share a link. ExVault would allow this kind of transaction to be completed quickly by having users invite each other to public or private “chat rooms”. Once in the room users will be represented by an avatar. By dragging and dropping files over each user one can share with a specific person or the whole room. Rooms are not remembered but under their account each user can see files they have uploaded and received. The file will be stored online on MongoDB for a certain period of time due to pricing constraints and will have a limitation as to how large the file is. The files will then be downloaded when clicked for the user to view on their personal computer.</p>
 </div>
 
+<div>
+<h2>Project Database - MongoDB</h2>
+<p>The database for group project <a href="https://github.com/FireHeart2K/Group17_GroupProject_SENG513/edit/main/README.md#group-projectexvault-file-share">Group Project - ExVault File Share</a> is implemented through an open-source program <a href="https://cloud.mongodb.com/v2/623e1fb8e8a0190f39fc4595">MongoDB</a></p>
+</div>
+	
 <br>
 <div>
-<h2>Components & Deadlines.</h2><br>
+<h2>Components & Deadlines.</h2>
+<p><img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;:&nbsp; Indicates the currently on-going task.</p>
 <table style="width: 686.812px; height: 235px; float: center;" border="0" cellpadding="2">
 <tbody>
 <tr style="height: 15px;">
@@ -83,7 +89,10 @@ Term       : Winter 2022<br>
 <td id="date" style="width: auto; height: 41px;">&nbsp;&nbsp;<strike>Mar 13, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
 <tr style="height: 41px;">
-<td style="width: 366px; height: 41px;">&nbsp;<a href="https://drive.google.com/drive/folders/1ENLRHc7mA_ffE2DADWEix7VwQ7543nWO">Group Project - UI Mockups (Milestone 2)&nbsp;&nbsp;</a></td>
+<td style="width: 366px; height: 41px;">&nbsp;Group Project - UI Mockups (Milestone 2)&nbsp;&nbsp;<ul>
+	<li><a href="https://www.figma.com/file/22lc2cI8KPElpTmSS00SKw/SENG-513-Mockup?node-id=2%3A452">Figma UI Design</a></li>
+	<li><a href="https://drive.google.com/drive/folders/1ENLRHc7mA_ffE2DADWEix7VwQ7543nWO">Presentaion</a></li>
+		<ul/></td>
 <td style="width: 78px; height: 41px; ">&nbsp;&nbsp;&nbsp;9.6&nbsp;%</td>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Mar 20, 2022 - 11:59 PM (MT)</strike></td>
 </tr>
