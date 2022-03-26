@@ -1,5 +1,5 @@
 # Group 17 SENG-513 Project | *ExVault*
-<img align="right" width="175" height="206" src="ExVault_logo.png">
+<img align="right" width="175" height="206" src="/images/ExVault_logo.png">
 Course Code: SENG 513<br>
 Course Name: Web-Based Systems<br>
 Professor  : Lorans Alabood<br>
@@ -65,7 +65,7 @@ Term       : Winter 2022<br>
 <br>
 <div>
 <h2>Components & Deadlines.</h2>
-<p><img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;:&nbsp; Indicates the currently on-going task.</p>
+<p><img src="/images/Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;:&nbsp; Indicates the currently on-going task.</p>
 <table style="width: 686.812px; height: 235px; float: center;" border="0" cellpadding="2">
 <tbody>
 <tr style="height: 15px;">
@@ -102,7 +102,7 @@ Term       : Winter 2022<br>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;<strike>Mar 15, 2022 - 11:59 PM (MT)</strike>&nbsp&nbsp</td>
 </tr>
 <tr style="height: 29px;">
-<td style="width: 366px; height: 29px;">&nbsp;<a href="https://drive.google.com/drive/folders/19QvOVB-bT3cTrCoxZXWFL-VI8hDhbbhF">Group Project - Final Report & Live Demo (Milestone 4)</a>&nbsp;&nbsp;&nbsp;<img src="Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
+<td style="width: 366px; height: 29px;">&nbsp;<a href="https://drive.google.com/drive/folders/19QvOVB-bT3cTrCoxZXWFL-VI8hDhbbhF">Group Project - Final Report & Live Demo (Milestone 4)</a>&nbsp;&nbsp;&nbsp;<img src="/images/Multicolor-Circle.gif"; style="width: 20px; height: 20px;">&nbsp;</td>
 <td style="width: 78px; height: 41px;">&nbsp;&nbsp;&nbsp;36&nbsp;%</td>
 <td id="date" style="width: 239.812px; height: 41px;">&nbsp;&nbsp;Apr 12, 2022 - 11:59 PM (MT)</td>
 </tr>
