@@ -1,4 +1,4 @@
-# Group 17 SENG-513 Project | *ExVault*
+# Group 17 SENG-513 Project | *ExVault File Share*
 <img align="right" width="175" height="206" src="/images/ExVault_logo.png">
 Course Code: SENG 513<br>
 Course Name: Web-Based Systems<br>
@@ -59,7 +59,7 @@ Term       : Winter 2022<br>
 
 <div>
 <h2>Project Database - MongoDB</h2>
-<p>The database for group project <a href="https://github.com/FireHeart2K/Group17_GroupProject_SENG513/edit/main/README.md#group-projectexvault-file-share">Group Project - ExVault File Share</a> is implemented through an open-source program <a href="https://cloud.mongodb.com/v2/623e1fb8e8a0190f39fc4595">MongoDB</a></p>
+<p>The database for group project <a href="https://github.com/FireHeart2K/Group17_GroupProject_SENG513/edit/main/README.md#group-projectexvault-file-share">ExVault File Share</a> is implemented through an open-source program <a href="https://cloud.mongodb.com/v2/623e1fb8e8a0190f39fc4595">MongoDB</a></p>
 </div>
 	
 <br>
