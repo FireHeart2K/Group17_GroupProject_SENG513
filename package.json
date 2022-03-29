@@ -30,8 +30,7 @@
   },
   "homepage": "https://github.com/FireHeart2K/Group17_GroupProject_SENG513#readme",
   "dependencies": {
-    "bson": "^4.6.2",
     "express": "^4.17.3",
-    "mongodb": "^4.4.1"
+    "mysql": "^2.18.1"
   }
 }
