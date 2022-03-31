@@ -1,0 +1,25 @@
+Queries:
+
+Could Do:
+    * Delete Users
+
+Must Do:
+    * Add Users
+    * Select Users
+        - Displays the list of users in the room
+    * Select User
+        - Verify User and Password
+
+    * Create Room
+    * Delete Room
+        - Blows up after everyone leaves
+    * Select Room
+        - Displays the rooms available to the user
+
+    * Select Files
+        - Displays the list of files in the room
+    * Create Files - In Progress
+    * Delete Files
+
+Notes:
+    *
