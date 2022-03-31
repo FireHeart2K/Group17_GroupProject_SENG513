@@ -15,7 +15,7 @@ connection.connect(function(err) {
     }
 
     console.log('Connected to database.');
-    var sql = "INSERT INTO files (filename, file) VALUES ('Project_Proposal4.pdf', LOAD_FILE('server/Project Proposal.pdf'))";
+    var sql = "INSERT INTO files (filename, file) VALUES ('Project_Proposal4.pdf', LOAD_FILE('server/Project_Proposal1.pdf'))";
     connection.query(sql, function (err, result) {
       if (err) throw err;
       console.log("1 record inserted");
