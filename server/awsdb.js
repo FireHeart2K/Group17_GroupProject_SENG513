@@ -1,4 +1,8 @@
-var mysql = require('mysql');
+const mysql = require('mysql');
+const express = require('express');
+const expApp = express();
+const bodyParser = require('body-parser');
+const cors = require('cors')
 
 var connection = mysql.createConnection({
     host     : "xv-db.cbbcel7ahipi.us-east-1.rds.amazonaws.com",
