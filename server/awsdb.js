@@ -4,15 +4,21 @@ const expApp = express();
 const bodyParser = require('body-parser');
 const cors = require('cors')
 
-var connection = mysql.createConnection({
+const port = 3306;
+expApp.listen(port, () => console.log(`Listening on port ${port}`));
+expApp.use(bodyParser.urlencoded({extended: true}));
+expApp.use(express.json());
+expApp.use(cors());
+
+const db = mysql.createConnection({
     host     : "xv-db.cbbcel7ahipi.us-east-1.rds.amazonaws.com",
     user     : "admin",
     password : "3RpePTwPyWsYa60kTP3BNTFP0EpMibbbmrgQ97tb",
-    port     : 3306,
+    port     : port,
     database: "exVaultDB"
 });
 
-connection.connect(function(err) {
+db.connect(function(err) {
     if (err) {
         console.error('Database connection failed: ' + err.stack);
         return;
@@ -20,11 +26,11 @@ connection.connect(function(err) {
 
     console.log('Connected to database.');
     var sql = "INSERT INTO files (filename, file) VALUES ('Project_Proposal4.pdf', LOAD_FILE('server/Project_Proposal1.pdf'))";
-    connection.query(sql, function (err, result) {
+    db.query(sql, function (err, result) {
       if (err) throw err;
       console.log("1 record inserted");
     });
-    connection.query("SELECT * FROM files", function (err, result, fields) {
+    db.query("SELECT * FROM files", function (err, result, fields) {
         if (err) throw err;
         console.log(result);
       });
