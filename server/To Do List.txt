@@ -13,12 +13,12 @@ Must Do:
     * Create Room
     * Delete Room
         - Blows up after everyone leaves
-    * Select Room
-        - Displays the rooms available to the user
+    * Enter Room
+        - Select correct room with password
 
     * Select Files
         - Displays the list of files in the room
-    * Create Files - In Progress
+    * Create Files - COMPLETED
     * Delete Files
 
 Notes:
