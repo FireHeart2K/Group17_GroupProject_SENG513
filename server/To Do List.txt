@@ -1,25 +1,48 @@
 Queries:
 
-Could Do:
-    * Delete Users
+{field} = field to fill in
 
-Must Do:
+Users:
     * Add Users
-    * Select Users
-        - Displays the list of users in the room
-    * Select User
-        - Verify User and Password
+======================================================================
+    INSERT INTO exVaultDB.users
+    VALUES ({userID}, {password});
+======================================================================
 
+    * Select User
+======================================================================
+SELECT `password`
+FROM `exVaultDB`.`users`
+WHERE `userID` = {username};
+======================================================================
+
+    * Delete Users
+======================================================================
+DELETE FROM `exVaultDB`.`users`
+WHERE `userID` = {username};
+======================================================================
+
+    * Display Users
+        - Displays the list of users in the room
+======================================================================
+SELECT `user`
+FROM exVaultDB.roomUser
+WHERE `room` = 'hellofriends';
+======================================================================
+
+Rooms:
     * Create Room
+======================================================================
+    INSERT INTO exVaultDB.users
+    VALUES ({userID}, {password});
+======================================================================
     * Delete Room
         - Blows up after everyone leaves
     * Enter Room
         - Select correct room with password
 
+Files:
     * Select Files
         - Displays the list of files in the room
     * Create Files - COMPLETED
     * Delete Files
-
-Notes:
-    *
