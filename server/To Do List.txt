@@ -2,6 +2,10 @@ Queries:
 
 {field} = field to fill in
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Users:
     * Add Users
 ======================================================================
@@ -20,6 +24,12 @@ WHERE `userID` = {username};
 ======================================================================
 DELETE FROM `exVaultDB`.`users`
 WHERE `userID` = {username};
+
+TODO CAN'T DELETE MESSAGES DUE TO messages table FK.
+
+TODO BEFORE DELETION
+TODO Add Deletion from roomUser and messages table.
+TODO Reduce the room count by 1.
 ======================================================================
 
     * Display Users
@@ -30,16 +40,45 @@ FROM exVaultDB.roomUser
 WHERE `room` = {room name};
 ======================================================================
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Rooms:
     * Create Room
 ======================================================================
-    INSERT INTO exVaultDB.users
-    VALUES ({userID}, {password});
+    INSERT INTO `exVaultDB`.`rooms`
+    VALUES ({Room Name}, {Password});
+
+TODO AFTER INSERT
+TODO Add row to RoomUser table
 ======================================================================
+
     * Delete Room
         - Blows up after everyone leaves
+======================================================================
+DELETE FROM `exVaultDB`.`rooms`
+WHERE `roomID` = {Room Name};
+
+TODO BEFORE DELETION
+TODO Remove all room users attached in RoomUser table.
+TODO Remove all messages associated to the room.
+TODO Remove all files associated to the room.
+======================================================================
     * Enter Room
-        - Select correct room with password
+======================================================================
+SELECT `password`
+FROM `exVaultDB`.`rooms`
+WHERE `roomsID` = {Room Name};
+
+TODO AFTER INSERT
+TODO Increment the room count by 1.
+TODO Add RoomUser row
+======================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Files:
     * Select Files
@@ -60,4 +99,35 @@ FROM `exVaultDB`.`files`
 INNER JOIN `exVaultDB`.`roomFiles`
   ON `exVaultDB`.`files`.`fileID`=`exVaultDB`.`roomFiles`.`file`
 WHERE 'fileName' = {file name} AND 'room' = {room name};
+======================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Messages:
+
+    * Create message
+======================================================================
+INSERT INTO `exVaultDB`.`messages`
+    (`roomID`,
+    `userID`,
+    `content`)
+
+    VALUES
+    ({Room Name},
+    {User Name},
+    {Message});
+======================================================================
+
+    * View messages
+======================================================================
+SELECT `content`
+FROM exVaultDB.messages
+WHERE `room` = {Room Name};
+======================================================================
+
+    * Delete messages
+======================================================================
+TODO CHECK WITH TEAM
 ======================================================================
