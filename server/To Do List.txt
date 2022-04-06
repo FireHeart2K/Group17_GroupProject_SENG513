@@ -27,7 +27,7 @@ WHERE `userID` = {username};
 ======================================================================
 SELECT `user`
 FROM exVaultDB.roomUser
-WHERE `room` = 'hellofriends';
+WHERE `room` = {room name};
 ======================================================================
 
 Rooms:
@@ -43,6 +43,21 @@ Rooms:
 
 Files:
     * Select Files
-        - Displays the list of files in the room
+======================================================================
+SELECT `exVaultDB`.`files`.`fileName`, `exVaultDB`.`files`.`timeCreated`
+FROM `exVaultDB`.`files`
+INNER JOIN `exVaultDB`.`roomFiles`
+    ON `exVaultDB`.`files`.`fileID`=`exVaultDB`.`roomFiles`.`file`
+WHERE 'room' = {room name};
+======================================================================
+
     * Create Files - COMPLETED
+
     * Delete Files
+======================================================================
+DELETE file
+FROM `exVaultDB`.`files`
+INNER JOIN `exVaultDB`.`roomFiles`
+  ON `exVaultDB`.`files`.`fileID`=`exVaultDB`.`roomFiles`.`file`
+WHERE 'fileName' = {file name} AND 'room' = {room name};
+======================================================================
