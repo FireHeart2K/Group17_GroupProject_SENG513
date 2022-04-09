@@ -1,0 +1,19 @@
+import React from 'react'
+import Splash from './components/Splash';
+import LogIn from './components/LogIn';
+import SignUp from './components/SignUp';
+import DirectoryList from './components/DirectoryList';
+import ActiveRooms from './components/AcriveRooms';
+import './App.css';
+
+function App() {
+    return (
+        <div className='App'>
+            <ActiveRooms/>
+        </div>
+    )
+
+
+}
+
+export default App
