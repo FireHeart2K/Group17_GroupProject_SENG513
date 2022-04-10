@@ -9,11 +9,12 @@ import CreateServer from './components/CreateServer';
 import EnterServer from './components/EnterServer';
 import ChatScreen from './components/ChatScreen';
 import ServerUsers from './components/ServerUsers';
+import UsersFiles from './components/UsersFiles';
 
 function App() {
     return (
         <div className='App'>
-            <ServerUsers/>
+            <UsersFiles/>
         </div>
     )
 
