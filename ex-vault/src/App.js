@@ -8,11 +8,12 @@ import './App.css';
 import CreateServer from './components/CreateServer';
 import EnterServer from './components/EnterServer';
 import ChatScreen from './components/ChatScreen';
+import ServerUsers from './components/ServerUsers';
 
 function App() {
     return (
         <div className='App'>
-            <ChatScreen/>
+            <ServerUsers/>
         </div>
     )
 
