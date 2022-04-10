@@ -1,6 +1,6 @@
 import { Height } from '@material-ui/icons';
 import {React, Component} from 'react';
-import "./DirectoryList.css"
+import "./ServerUsers.css"
 
 class DirectoryList extends Component{
     render(){
@@ -27,10 +27,13 @@ class DirectoryList extends Component{
                         <li><img src='https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png' style={{ width: "20px", height: "20px" }} alt={"profile"}/>Jenny</li>
                         <li><img src='https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png' style={{ width: "20px", height: "20px" }} alt={"profile"}/>Jacob</li>
                         <li><img src='https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png' style={{ width: "20px", height: "20px" }} alt={"profile"}/>Anthony</li>
+                        <li><img src='https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png' style={{ width: "20px", height: "20px" }} alt={"profile"}/>Clark</li>
+                        <li><img src='https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png' style={{ width: "20px", height: "20px" }} alt={"profile"}/>Jenny</li>
+                        <li><img src='https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png' style={{ width: "20px", height: "20px" }} alt={"profile"}/>Jacob</li>
+                        <li><img src='https://www.pinclipart.com/picdir/middle/181-1814767_person-svg-png-icon-free-download-profile-icon.png' style={{ width: "20px", height: "20px" }} alt={"profile"}/>Anthony</li>
                     </ul>
                 </div>
                 <div id = "row-3">
-                    <button id = "upload">UPLOAD</button>
                 </div>
             </div>
 

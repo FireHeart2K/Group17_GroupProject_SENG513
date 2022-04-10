@@ -91,14 +91,14 @@
 
 #row-2{
     flex-grow: 5;
-    height: 60%;
+    height: 80%;
     overflow: auto;
     background-color: #0E164D;
 }
 
 #row-3{
     flex-grow: 1;
-    height: 25%;
+    height: 15%;
     text-align: center;
     padding-top: 50px;
     background-color: #0E164D;
