@@ -25,7 +25,7 @@ body {
 }
 
 .BackButtonCreateServer{
-    margin-bottom: 15vh;
+    margin-bottom: 25vh;
     margin-right: 85%;
     margin-top: 2%;
     margin-left: 2%;
@@ -52,10 +52,11 @@ body {
     color: white;
     border: 0 none;
     padding: 10px;
-    margin-left: 55vw;
-    margin-right: 30vw;
+    margin-top: 3vh;
+    margin-left: 62.5vw;
+    /* margin-right: 30vw; */
     margin-bottom: 10px;
-    width: 112px;
+    width: 100px;
     word-wrap: break-word;
     word-break: break-all;
     border-radius: 8px;
@@ -67,7 +68,8 @@ body {
 }
 
 .CreateServerInputFields{
-    margin:auto;
+    margin-left: 1 auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(0, 175, 143);
@@ -79,22 +81,6 @@ body {
     border-radius: 8px;
 }
 
-#ServerDescription{
-    height: 30vh;
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(0, 175, 143);
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 45vw;
-    word-wrap: break-word;
-    word-break: break-all;
-    border-radius: 8px;
-    inline-size: 45vw;
-    overflow-wrap: break-word;
-
-}
 
 
 input:focus {

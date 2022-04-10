@@ -1,5 +1,5 @@
 import {React, Button} from "react";
-import './CreateServer.css';
+import './EnterServer.css';
 
 
 function CreateServer() {
@@ -14,18 +14,13 @@ function CreateServer() {
         placeholder="Server Name..."
         />
         <inpu className="input" type="text" placeholder="Description..."/>
-        <input
-          id="ServerDescription"
-          type="text"
-          placeholder="Server Password (optional)"
-          />
         <div>
         <input
           className="CreateServerInputFields"
           type="text"
           placeholder="Server Password (optional)"
           /></div>
-        <button className="create-server-button">Creater Server</button>
+        <button className="create-server-button">Enter Server</button>
         </div>
         </div>
     </div>

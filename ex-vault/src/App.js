@@ -6,11 +6,12 @@ import DirectoryList from './components/DirectoryList';
 import ActiveRooms from './components/AcriveRooms';
 import './App.css';
 import CreateServer from './components/CreateServer';
+import EnterServer from './components/EnterServer';
 
 function App() {
     return (
         <div className='App'>
-            <CreateServer/>
+            <EnterServer/>
         </div>
     )
 
