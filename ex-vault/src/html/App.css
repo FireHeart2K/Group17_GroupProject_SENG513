@@ -3,7 +3,7 @@
 body {
     background-image: url(https://cdn.discordapp.com/attachments/950503620951023626/962435061205041172/App-BG.png);
     background-repeat: no-repeat;
-    background-size: 100% 130%;
+    background-size: 100% 1000px;
     width: 100vw;
     height: 100vh;
     display: grid;
