@@ -14,7 +14,7 @@ import UsersFiles from './components/UsersFiles';
 function App() {
     return (
         <div className='App'>
-            <UsersFiles/>
+            <Splash/>
         </div>
     )
 

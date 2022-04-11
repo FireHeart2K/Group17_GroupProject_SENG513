@@ -3,7 +3,7 @@
 body {
     background-image: url(https://cdn.discordapp.com/attachments/950503620951023626/962435061205041172/App-BG.png);
     background-repeat: no-repeat;
-    background-size: 100% 1000px;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -15,9 +15,18 @@ body {
     padding: 0%;
     font-family: montserrat, arial, verdana;
 }
+
+.logo{
+    height: auto;
+    max-width: 100%;
+
+}
 .logo-font{
+    padding-left: 35%;
+	justify-content: center;
     color: aliceblue;
     text-shadow: 0px 0px 10px rgb(0, 156, 188);
+    transform: scale(200%);
 }
 
 .form {
