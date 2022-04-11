@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CreateServer.css">
+        <link rel="stylesheet" href="App.css">
+        <title>CreateServer</title>
+    </head>
+    <body>
+        <div class="CreateServerContainer">
+            <div>
+            <button class="BackButtonCreateServer">Back</button>
+            <div class="createServerinputFields">
+            <input
+                class="CreateServerInputFields"
+                type="text"
+                placeholder="Server Name..."
+            />
+            <input class="CreateServerInputFields" type="text" placeholder="Description..."/>
+            <input
+                id="ServerDescription"
+                type="text"
+                placeholder="Server Password (optional)"
+                />
+            <div>
+            <input
+                class="CreateServerInputFields"
+                type="text"
+                placeholder="Server Password (optional)"
+                /></div>
+            <button id="csb"class="create-server-button">Create Server</button>
+            </div>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="CreateServer.js"></script>
+    </body>
+</html>
