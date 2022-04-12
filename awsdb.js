@@ -11,8 +11,6 @@ var cookieParser = require('cookie-parser');
 const req = require('express/lib/request');
 const { equal } = require('assert');
 const router = express.Router();
-
-
 const db = mysql.createConnection({
     host: "xv-db.cbbcel7ahipi.us-east-1.rds.amazonaws.com",
     user: "admin",
@@ -20,7 +18,7 @@ const db = mysql.createConnection({
     port: 3306,
     database: "exVaultDB"
 });
-
+let curServer = "";
 let app = express();
 
 //Cookie code from https://stackoverflow.com/questions/16209145/how-can-i-set-cookie-in-node-js-using-express-framework
@@ -98,6 +96,23 @@ app.post('/createServer', (req, res) => {
         });
     });
 });
+app.post('/joinServer', (req, res) => {
+        db.connect(function (err) {
+            db.query("SELECT roomsID, password FROM rooms WHERE roomsID='" + req.body.ServerName + "'" + " AND " + "password='" + req.body.Password + "'", function (err, result, fields) {
+                if (err) throw err;
+                //https://stackabuse.com/encoding-and-decoding-base64-strings-in-node-js/
+                //console.log(result[0].roomsID)
+                sql = "INSERT INTO roomUser (user,room) VALUES (" + "'" + req.cookies.username + "'" + "," + "'" + result[0].roomsID + "'" + ")";
+                db.query(sql, function (err1, result1) {
+                    if (err1) throw err1;
+                    console.log("1 record inserted");
+                });
+            
+            });
+    });  
+    curServer = req.body.ServerName 
+});
+
 app.get('/chatroom', (req, res) => {
     res.sendFile(__dirname + '/ChatScreen.html');
 });
@@ -105,6 +120,31 @@ app.get('/sendFile', (req, res) => {
     res.sendFile(__dirname + '/DirectoryList.html');
 });
 app.get('/getUser', (req, res) => {
+    res.send(req.cookies.username);
+});
+app.get('/getRoom', (req, res) => {
+    res.send(curServer);
+    //curServer = ""
+});
+app.post('/uploadFile', (req, res) => {
+    console.log(req.body)
+    let buffer = Buffer.from(req.body.fcontent)
+    buffer64 = buffer.toString('base64');
+    fs.writeFileSync(req.body.fname, buffer64);
+    fs.readFile(req.body.filecontent, 'base64', (err, data) => {
+        if (err) throw err;
+        var sql = "INSERT INTO files (fileName, fileBLOB) VALUES ('" + req.body.filename+ "', " + "'" + data + "'" + ")";
+        db.query(sql, function (err, result) {
+            if (err) throw err;
+            console.log("1 record inserted");
+        });
+        db.query("SELECT fileBLOB FROM files WHERE fileID='Project_Proposal4.pdf'", function (err, result, fields) {
+            if (err) throw err;
+            //https://stackabuse.com/encoding-and-decoding-base64-strings-in-node-js/
+            let buff = new Buffer(data, 'base64');
+            fs.writeFileSync('Project_Proposal3.pdf', buff);
+        });
+    });
     res.send(req.cookies.username);
 });
 app.get('/', (req, res) => {
@@ -125,6 +165,7 @@ db.connect(function (err) {
     io.sockets.on('connection', (socket) => {
         console.log(socket.connected);
         console.log(io.engine.clientsCount);
+        socket.join(curServer);
         //DO NOT DELETE THE BELOW COMMENTED CODE IS ESSENTIAL FOR FILE MANIPULATION IN DB
         /*
         fs.readFile('/Users/Nathan/Group17_GroupProject_SENG513/server/Project_Proposal1.pdf', 'base64', (err, data) => {
@@ -144,8 +185,8 @@ db.connect(function (err) {
         */
     });
     io.sockets.on('connection', (socket) => {
-        socket.on('chatmessage', (usr, msg) => {
-            io.emit('updatemessage', usr, msg);
+        socket.on('chatmessage', (usr, msg,room) => {
+            socket.to(room).emit('updatemessage', usr, msg);
             /*
             var sql = "INSERT INTO users (userID, password) VALUES (" + "'" + username + "'" + "," + "'" + password + "'" + ")";
             db.query(sql, function (err, result) {
@@ -153,6 +194,14 @@ db.connect(function (err) {
                 console.log("1 record inserted");
             });
             */
+        });
+    });
+    io.sockets.on('connection', (socket) => {
+        socket.on('fileUpload', (fname, furl) => {
+            let buffer = Buffer.from(furl)
+            buffer64 = buffer.toString('base64');
+            fs.writeFileSync(fname, buffer64);
+
         });
     });
 });
