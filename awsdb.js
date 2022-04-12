@@ -9,6 +9,7 @@ const fs = require('fs')
 var nb = require('buffer');
 var cookieParser = require('cookie-parser');
 const req = require('express/lib/request');
+const { equal } = require('assert');
 const router = express.Router();
 
 
@@ -23,7 +24,9 @@ const db = mysql.createConnection({
 let app = express();
 
 //Cookie code from https://stackoverflow.com/questions/16209145/how-can-i-set-cookie-in-node-js-using-express-framework
+
 app.use(cookieParser())
+/*
 app.use(function (req, res, next) {
     // check if client sent cookie
     var cookie = req.cookies.cookieName;
@@ -39,6 +42,7 @@ app.use(function (req, res, next) {
     }
     next(); // <-- important!
 });
+*/
 app.use(express.json());
 // let static middleware do its job
 app.use(express.static('public'))
@@ -52,7 +56,15 @@ app.post('/json-handler', (req, res) => {
 
     });
 });
+app.post('/json-handler1', (req, res) => {
+    db.connect(function (err) {
+        db.query("SELECT userID, password FROM users WHERE userID='" + req.body.email + "'" + " AND " +"password='" + req.body.password+ "'" , function (err, result, fields) {
+            if (err) throw err;
+            //https://stackabuse.com/encoding-and-decoding-base64-strings-in-node-js/
+        });
 
+    });
+});
 app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/ActiveRooms.html');
 });
@@ -64,7 +76,7 @@ app.get('/join', (req, res) => {
     res.sendFile(__dirname + '/EnterServer.html');
 });
 app.get('/inrooms', (req, res) => {
-    db.query("SELECT room FROM roomUser WHERE user='rebecca'", function (err, result, fields) {
+    db.query("SELECT room FROM roomUser WHERE user='" + req.cookies.username + "'", function (err, result, fields) {
         if (err) throw err;
         console.log(result)
         res.send(JSON.stringify(result));
@@ -90,7 +102,7 @@ app.get('/sendFile', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/SignUp.html');
+    res.sendFile(__dirname + '/Login.html');
 });
 
 let server = app.listen(3000);
