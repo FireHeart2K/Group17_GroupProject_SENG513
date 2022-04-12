@@ -69,6 +69,10 @@ app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/ActiveRooms.html');
 });
 
+app.get('/new', (req, res) => {
+    res.sendFile(__dirname + '/SignUp.html');
+});
+
 app.get('/create', (req, res) => {
     res.sendFile(__dirname + '/CreateServer.html');
 });
