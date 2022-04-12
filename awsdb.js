@@ -126,6 +126,14 @@ app.get('/getRoom', (req, res) => {
     res.send(curServer);
     //curServer = ""
 });
+app.get('/getMessages', (req, res) => {
+    db.query("SELECT userID,content FROM messages WHERE roomID='" + curServer + "'", function (err, result, fields) {
+        if (err) throw err;
+        console.log(result)
+        res.send(JSON.stringify(result));
+    });
+    //curServer = ""
+});
 app.post('/uploadFile', (req, res) => {
     console.log(req.body)
     let buffer = Buffer.from(req.body.fcontent)
@@ -186,6 +194,11 @@ db.connect(function (err) {
     });
     io.sockets.on('connection', (socket) => {
         socket.on('chatmessage', (usr, msg,room) => {
+            var sql = "INSERT INTO messages (userID, roomID, content) VALUES (" + "'" + usr + "'" + "," + "'" + room + "'" + "," + "'" + msg + "'" +")";
+            db.query(sql, function (err, result) {
+                if (err) throw err;
+                console.log("1 record inserted");
+            });
             socket.to(room).emit('updatemessage', usr, msg);
             /*
             var sql = "INSERT INTO users (userID, password) VALUES (" + "'" + username + "'" + "," + "'" + password + "'" + ")";
@@ -201,7 +214,6 @@ db.connect(function (err) {
             let buffer = Buffer.from(furl)
             buffer64 = buffer.toString('base64');
             fs.writeFileSync(fname, buffer64);
-
         });
     });
 });

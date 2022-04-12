@@ -17,6 +17,18 @@ $(document).ready(function () {
   });
 });
 let ftext = ""
+//message memory
+$(document).ready(function () {
+  $.get("/getMessages", function (data, status) {
+    var finaltext = JSON.parse(data);
+    for (let i = 0; i < finaltext.length; i++) {
+      var item = document.createElement('li');
+      item.textContent = "[" + finaltext[i].userID + "] " + finaltext[i].content;
+      messages.appendChild(item);
+    }
+  });
+});
+
 /*This file was inspired the socket.io chat tutorial https://socket.io/get-started/chat and the lecture of the joint painting by the professor https://d2l.ucalgary.ca/d2l/le/content/422910/viewContent/5219346/View*/
 let socket = io.connect('http://localhost:3000');
 
