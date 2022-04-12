@@ -112,12 +112,12 @@
     transition: ease-in-out 0.7s;
 }
 
-#r-list{
+#rlist{
     margin-left: -40px;
     margin-top: 0px;
 }
 
-#r-list > li{
+#rlist > li{
     list-style: none;
     background-color: #394287;
     height: 50px;
@@ -128,7 +128,7 @@
     flex-direction: row;
 }
 
-#r-list > li:nth-child(2n + 1){
+#rlist > li:nth-child(2n + 1){
     list-style: none;
     background-color: #0E164D;
 }

@@ -39,11 +39,18 @@ app.use(function (req, res, next) {
     }
     next(); // <-- important!
 });
-
+app.use(express.json());
 // let static middleware do its job
 app.use(express.static('public'))
 app.post('/json-handler', (req, res) => {
-    
+    db.connect(function (err) {
+        var sql = "INSERT INTO users (userID, password) VALUES (" + "'" + req.body.email + "'" + "," + "'" + req.body.password + "'" + ")";
+        db.query(sql, function (err, result) {
+            if (err) throw err;
+            console.log("1 record inserted");
+        });
+
+    });
 });
 
 app.get('/login', (req, res) => {
@@ -56,15 +63,32 @@ app.get('/create', (req, res) => {
 app.get('/join', (req, res) => {
     res.sendFile(__dirname + '/EnterServer.html');
 });
+app.get('/inrooms', (req, res) => {
+    db.query("SELECT room FROM roomUser WHERE user='rebecca'", function (err, result, fields) {
+        if (err) throw err;
+        console.log(result)
+        res.send(JSON.stringify(result));
+    });
+});
+app.post('/createServer', (req, res) => {
+    db.connect(function (err) {
+        var sql = "INSERT INTO rooms (roomsID, password, userNo) VALUES (" + "'" + req.body.ServerName + "'" + "," + "'" + req.body.Password + "'" + "," + "1" + ")";
+        console.log(req.body.ServerName)
+        console.log(req.body.Password)
+        db.query(sql, function (err, result) {
+            if (err) throw err;
+            console.log("1 record inserted");
+        });
+
+    });
+});
 app.get('/chatroom', (req, res) => {
     res.sendFile(__dirname + '/ChatScreen.html');
 });
-/*
-router.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, '/ActiveRooms.html'));
-    console.log("HERE")
+app.get('/sendFile', (req, res) => {
+    res.sendFile(__dirname + '/DirectoryList.html');
 });
-*/
+
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/SignUp.html');
 });

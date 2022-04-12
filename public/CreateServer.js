@@ -4,11 +4,14 @@ let socket = io.connect('http://localhost:3000');
 
 document.getElementById("csb").addEventListener("click", function (e) {
   e.preventDefault();
-  //change page req
-  const xhttp2 = new XMLHttpRequest();
-  xhttp2.open("GET", "/chatroom");
-  //xhttp2.setRequestHeader('Login', 'one');
-  xhttp2.send();
-  //socket.emit('newuser', document.getElementById("email").value, document.getElementById("password").value)
-  window.location.href = "http://localhost:3000/chatroom"
+  if (document.getElementById("ServerName").value) {
+    var jsonStuff = { "ServerName": document.getElementById("ServerName").value, "Description": document.getElementById("ServerDescription").value , "Password":document.getElementById("ServerPassword").value}
+    var toSend = JSON.stringify(jsonStuff)
+    const xhttp = new XMLHttpRequest();
+    // Send a request
+    xhttp.open("POST", "/createServer");
+    xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    xhttp.send(toSend);
+    window.location.href = "http://localhost:3000/login"
+  }
 });
