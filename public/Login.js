@@ -5,7 +5,7 @@ let socket = io.connect('http://localhost:3000');
 document.getElementById("signup").addEventListener("click", function (e) {
   e.preventDefault();
   if (document.getElementById("email").value && document.getElementById("password").value) {
-    console.log("entered")
+    console.log()
     var jsonStuff = { "email": document.getElementById("email").value, "password": document.getElementById("password").value }
     var toSend = JSON.stringify(jsonStuff)
     document.cookie = "username=" + document.getElementById("email").value;

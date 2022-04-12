@@ -91,7 +91,11 @@ app.post('/createServer', (req, res) => {
             if (err) throw err;
             console.log("1 record inserted");
         });
-
+        sql = "INSERT INTO roomUser (user,room) VALUES (" + "'" + req.cookies.username + "'" + "," + "'" + req.body.ServerName + "'" + ")";
+        db.query(sql, function (err, result) {
+            if (err) throw err;
+            console.log("1 record inserted");
+        });
     });
 });
 app.get('/chatroom', (req, res) => {

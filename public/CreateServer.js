@@ -15,3 +15,13 @@ document.getElementById("csb").addEventListener("click", function (e) {
     window.location.href = "http://localhost:3000/login"
   }
 });
+
+document.getElementById("back").addEventListener("click", function (e) {
+  const xhttp2 = new XMLHttpRequest();
+  console.log("here")
+  xhttp2.open("GET", "/login");
+  //xhttp2.setRequestHeader('Login', 'one');
+  xhttp2.send();
+  //socket.emit('newuser', document.getElementById("email").value, document.getElementById("password").value)
+  window.location.href = "http://localhost:3000/login"
+});
