@@ -1,11 +1,29 @@
 
+
+let thisUser;
+//getusername
+  $(document).ready(function(){
+    $.get("/getUser", function(data, status){
+  thisUser= data;
+  });
+});
+
+
+
+
 /*This file was inspired the socket.io chat tutorial https://socket.io/get-started/chat and the lecture of the joint painting by the professor https://d2l.ucalgary.ca/d2l/le/content/422910/viewContent/5219346/View*/
 let socket = io.connect('http://localhost:3000');
-//getusername
-const xhttp2 = new XMLHttpRequest();
-xhttp2.open("GET", "/getUser",false);
-xhttp2.send();
-let thisUser = xhttp2.responseText;
+
+//receive messages from others
+socket.on('updatemessage', function (usr, msg) {
+  console.log(usr)
+  console.log(msg)
+  var item = document.createElement('li');
+  item.textContent = "[" + usr + "] " + msg;
+  messages.appendChild(item);
+  window.scrollTo(0, document.body.scrollHeight);
+});
+
 document.getElementById("SendFile").addEventListener("click", function (e) {
   e.preventDefault();
   //change page req
@@ -19,11 +37,11 @@ document.getElementById("SendFile").addEventListener("click", function (e) {
 });
 document.getElementById("sendMessage").addEventListener("click", function (e) {
   e.preventDefault();
-  socket.emit('chatmessage', thisUser + ":" + document.getElementById("textBox").value)
+  socket.emit('chatmessage', thisUser, document.getElementById("textBox").value)
   var item = document.createElement('li');
   item.textContent = "[" + thisUser + "] " + document.getElementById("textBox").value;
   item.style.fontWeight = "bold"
   messages.appendChild(item);
-  sendMessage.value = '';
+  textBox.value = '';
 
 });

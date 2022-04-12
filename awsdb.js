@@ -58,7 +58,7 @@ app.post('/json-handler', (req, res) => {
 });
 app.post('/json-handler1', (req, res) => {
     db.connect(function (err) {
-        db.query("SELECT userID, password FROM users WHERE userID='" + req.body.email + "'" + " AND " +"password='" + req.body.password+ "'" , function (err, result, fields) {
+        db.query("SELECT userID, password FROM users WHERE userID='" + req.body.email + "'" + " AND " + "password='" + req.body.password + "'", function (err, result, fields) {
             if (err) throw err;
             //https://stackabuse.com/encoding-and-decoding-base64-strings-in-node-js/
         });
@@ -123,7 +123,8 @@ db.connect(function (err) {
 
     console.log('Connected to database.');
     io.sockets.on('connection', (socket) => {
-        console.log('user connected');
+        console.log(socket.connected);
+        console.log(io.engine.clientsCount);
         //DO NOT DELETE THE BELOW COMMENTED CODE IS ESSENTIAL FOR FILE MANIPULATION IN DB
         /*
         fs.readFile('/Users/Nathan/Group17_GroupProject_SENG513/server/Project_Proposal1.pdf', 'base64', (err, data) => {
@@ -143,8 +144,8 @@ db.connect(function (err) {
         */
     });
     io.sockets.on('connection', (socket) => {
-        socket.on('chatmessage', (msg) => {
-            console.log(msg)
+        socket.on('chatmessage', (usr, msg) => {
+            io.emit('updatemessage', usr, msg);
             /*
             var sql = "INSERT INTO users (userID, password) VALUES (" + "'" + username + "'" + "," + "'" + password + "'" + ")";
             db.query(sql, function (err, result) {
