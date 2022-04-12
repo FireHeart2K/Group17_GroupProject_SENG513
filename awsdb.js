@@ -104,7 +104,9 @@ app.get('/chatroom', (req, res) => {
 app.get('/sendFile', (req, res) => {
     res.sendFile(__dirname + '/DirectoryList.html');
 });
-
+app.get('/getUser', (req, res) => {
+    res.send(req.cookies.username);
+});
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/Login.html');
 });
@@ -141,7 +143,8 @@ db.connect(function (err) {
         */
     });
     io.sockets.on('connection', (socket) => {
-        socket.on('newuser', (username, password) => {
+        socket.on('chatmessage', (msg) => {
+            console.log(msg)
             /*
             var sql = "INSERT INTO users (userID, password) VALUES (" + "'" + username + "'" + "," + "'" + password + "'" + ")";
             db.query(sql, function (err, result) {
