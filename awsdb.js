@@ -103,6 +103,7 @@ app.post('/createServer', (req, res) => {
     });
 });
 app.get('/chatroom', (req, res) => {
+    console.log("chatroom")
     res.sendFile(__dirname + '/ChatScreen.html');
 });
 app.get('/sendFile', (req, res) => {

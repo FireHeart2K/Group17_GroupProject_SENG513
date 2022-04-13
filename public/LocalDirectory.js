@@ -11,3 +11,9 @@ document.getElementById("upload").addEventListener("click", function (e) {
   window.location.href = "http://localhost:3000/chatroom"
 });
 */ 
+
+
+document.getElementById("cancel-btn").addEventListener("click", function(e) {
+  e.preventDefault();
+  console.log("Hello");
+});

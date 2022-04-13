@@ -21,6 +21,11 @@
     color: white;
 }
 
+#logout:hover{
+    transition: ease-in-out 0.7s;
+    background-color: #ffc45e;
+}
+
 #title{
     flex-grow:9;
     text-align: center;
