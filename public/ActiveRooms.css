@@ -72,11 +72,11 @@
     transition: ease-in-out 0.7s;
 }
 
-#room-name{
+.room-name{
     flex-grow: 12;
 }
 
-#leave{
+.leave{
     flex-grow: 1;
     background-color: #FF2E63;
     border-radius: 3px;
@@ -89,12 +89,12 @@
     color: white;
 }
 
-#leave:hover{
+.leave:hover{
     background-color: #fe6289;
     transition: ease-in-out 0.7s;
 }
 
-#join{
+.join{
     flex-grow: 1;
     background-color: #00db87;
     border-radius: 3px;
@@ -107,7 +107,7 @@
     color: white;
 }
 
-#join:hover{
+.join:hover{
     background-color: #47ffbf;
     transition: ease-in-out 0.7s;
 }

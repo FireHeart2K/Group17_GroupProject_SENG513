@@ -73,6 +73,12 @@ app.get('/create', (req, res) => {
 app.get('/join', (req, res) => {
     res.sendFile(__dirname + '/EnterServer.html');
 });
+app.post('/leaveroom', (req, res) => {
+    db.query("DELETE FROM roomUser WHERE user='" + req.cookies.username + "' AND room='" + req.body.ServerName + "'", function (err, result, fields) {
+        if (err) throw err;
+        console.log(result)
+    });
+});
 app.get('/inrooms', (req, res) => {
     db.query("SELECT room FROM roomUser WHERE user='" + req.cookies.username + "'", function (err, result, fields) {
         if (err) throw err;
@@ -112,7 +118,9 @@ app.post('/joinServer', (req, res) => {
     });  
     curServer = req.body.ServerName 
 });
-
+app.post('/joinexisting', (req, res) => {
+curServer = req.body.ServerName 
+});
 app.get('/chatroom', (req, res) => {
     res.sendFile(__dirname + '/ChatScreen.html');
 });
