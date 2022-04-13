@@ -21,3 +21,5 @@ Term       : Winter 2022<br>
 8. For third/fourth/fifth etc. client, please use another browser/incognito mode per client
 </p>
 </body>
+
+[Link to GitHub](https://github.com/FireHeart2K/Group17_GroupProject_SENG513/tree/merged-branch)
