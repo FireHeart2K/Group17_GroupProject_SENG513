@@ -67,6 +67,10 @@ app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/ActiveRooms.html');
 });
 
+app.get('/new', (req, res) => {
+    res.sendFile(__dirname + '/SignUp.html');
+});
+
 app.get('/create', (req, res) => {
     res.sendFile(__dirname + '/CreateServer.html');
 });
@@ -122,6 +126,7 @@ app.post('/joinexisting', (req, res) => {
 curServer = req.body.ServerName 
 });
 app.get('/chatroom', (req, res) => {
+    console.log("chatroom")
     res.sendFile(__dirname + '/ChatScreen.html');
 });
 app.get('/sendFile', (req, res) => {

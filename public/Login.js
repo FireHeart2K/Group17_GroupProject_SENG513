@@ -25,6 +25,7 @@ document.getElementById("signup").addEventListener("click", function (e) {
     document.getElementById("password").value = '';
   }
 });
+
 document.getElementById("login").addEventListener("click", function (e) {
   e.preventDefault();
   if (document.getElementById("email").value && document.getElementById("password").value) {
